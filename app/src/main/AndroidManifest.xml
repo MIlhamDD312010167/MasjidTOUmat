@@ -12,6 +12,12 @@
         android:theme="@style/Theme.MasjidToUmat"
         tools:targetApi="31">
         <activity
+            android:name=".Shodaqoh"
+            android:exported="false" />
+        <activity
+            android:name=".Infaq"
+            android:exported="false" />
+        <activity
             android:name=".JadwalKajian"
             android:exported="false" />
         <activity

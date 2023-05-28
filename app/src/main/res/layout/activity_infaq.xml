@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Infaq">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Infaq"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#38ffffff"
+        android:drawableStart="@drawable/baseline_name"
+        android:drawablePadding="20dp"
+        android:hint="Nama"
+        android:padding="15dp"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <EditText
+        android:id="@+id/etAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#38ffffff"
+        android:drawableStart="@drawable/baseline_alamat"
+        android:drawablePadding="20dp"
+        android:hint="Alamat"
+        android:padding="15dp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <EditText
+        android:id="@+id/etJumlahinfaq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#38ffffff"
+        android:drawableStart="@drawable/baseline_jumlah"
+        android:drawablePadding="20dp"
+        android:hint="Jumlah Infaq"
+        android:padding="15dp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <EditText
+        android:id="@+id/etNamabank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#38ffffff"
+        android:drawableStart="@drawable/baseline_bank"
+        android:drawablePadding="20dp"
+        android:hint="Nama Bank"
+        android:padding="15dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="114dp"
+        android:layout_height="39dp"
+        android:layout_centerHorizontal="true"
+        android:background="#6558f5"
+        android:text="Submit"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pembayaran">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transaksi"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:text="Salin kode Virtual"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:text="8767xxxxxxxx8345"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:text="atau Scan QR Barcode"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <ImageView
+        android:layout_width="181dp"
+        android:layout_height="175dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="120dp"
+        android:src="@drawable/QR_Barcode"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

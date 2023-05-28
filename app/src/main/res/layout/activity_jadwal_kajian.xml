@@ -42,4 +42,95 @@
         tools:layout_editor_absoluteY="56dp"
         tools:ignore="MissingConstraints" />
 
+    <ImageView
+        android:id="@+id/play1"
+        android:layout_width="141dp"
+        android:layout_height="83dp"
+        android:src="@drawable/baseline_play"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <Button
+        android:id="@+id/btnVideo1"
+        android:layout_width="185dp"
+        android:layout_height="82dp"
+        android:text="Kajian tentang iman dan islam"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <ImageView
+        android:id="@+id/play2"
+        android:layout_width="141dp"
+        android:layout_height="83dp"
+        android:src="@drawable/baseline_play"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <Button
+        android:id="@+id/btnVideo2"
+        android:layout_width="187dp"
+        android:layout_height="83dp"
+        android:text="Kajian tentang Kepemimpinan Rasulullah"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <ImageView
+        android:id="@+id/play3"
+        android:layout_width="141dp"
+        android:layout_height="83dp"
+        android:src="@drawable/baseline_play"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <Button
+        android:id="@+id/btnVideo3"
+        android:layout_width="185dp"
+        android:layout_height="82dp"
+        android:text="Kajian tentang indahnya puasa sunnah"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <ImageView
+        android:id="@+id/play4"
+        android:layout_width="141dp"
+        android:layout_height="83dp"
+        android:src="@drawable/baseline_play"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <Button
+        android:id="@+id/btnVideo4"
+        android:layout_width="185dp"
+        android:layout_height="82dp"
+        android:text="Kajian tentang Balligh"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <ImageView
+        android:id="@+id/play5"
+        android:layout_width="141dp"
+        android:layout_height="83dp"
+        android:src="@drawable/baseline_play"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="524dp" />
+
+    <Button
+        android:id="@+id/btnVideo5"
+        android:layout_width="185dp"
+        android:layout_height="82dp"
+        android:text="Kajian tentang amalan dibulan puasa"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="525dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
