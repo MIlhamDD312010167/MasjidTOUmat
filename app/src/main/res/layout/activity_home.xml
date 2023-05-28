@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beranda"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="100dp"
+        android:src="@drawable/baseline_notifications"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="355dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <SearchView
+        android:id="@+id/pencarian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="Silahkan Cari"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="56dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:fontFamily="sans-serif"
+        android:text="Assalamu'alaikum Wr.Wb"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <TextView
+        android:layout_width="161dp"
+        android:layout_height="38dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:text="Admin"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <ImageView
+        android:id="@+id/imageSholat"
+        android:layout_width="117dp"
+        android:layout_height="88dp"
+        android:src="@drawable/ic_action_Sholat"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="298dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnSholat"
+        android:layout_width="118dp"
+        android:layout_height="37dp"
+        android:text="Sholat"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <ImageView
+        android:id="@+id/imageKajian"
+        android:layout_width="117dp"
+        android:layout_height="88dp"
+        app:srcCompat="@drawable/ic_action_Kajian"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="298dp" />
+    <Button
+        android:id="@+id/btnKajian"
+        android:layout_width="118dp"
+        android:layout_height="37dp"
+        android:text="Kajian"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <ImageView
+        android:id="@+id/imageInfaq"
+        android:layout_width="117dp"
+        android:layout_height="88dp"
+        app:srcCompat="@drawable/ic_action_Infaq"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <Button
+        android:id="@+id/btnInfaq"
+        android:layout_width="118dp"
+        android:layout_height="37dp"
+        android:text="Infaq"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <ImageView
+        android:id="@+id/imageShodaqoh"
+        android:layout_width="117dp"
+        android:layout_height="88dp"
+        app:srcCompat="@drawable/ic_action_Shodaqoh"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <Button
+        android:id="@+id/btnShodaqoh"
+        android:layout_width="118dp"
+        android:layout_height="37dp"
+        android:text="Shodaqoh"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
